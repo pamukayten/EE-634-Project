@@ -1,0 +1,49 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Outputs and experiment results
+outputs/
+xai_augmentation_results/
+results/
+runs/
+wandb/
+
+# Model checkpoints and large model files
+checkpoints/
+**/checkpoints/
+pytorch_model.bin
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Hugging Face / dataset caches
+.cache/
+huggingface/
+hf_cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
